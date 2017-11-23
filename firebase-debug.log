@@ -1,0 +1,24 @@
+[debug] [2017-11-23T08:12:53.368Z] ----------------------------------------------------------------------
+[debug] [2017-11-23T08:12:53.370Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vinoth.madhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-11-23T08:12:53.370Z] CLI Version:   3.15.2
+[debug] [2017-11-23T08:12:53.370Z] Platform:      win32
+[debug] [2017-11-23T08:12:53.370Z] Node Version:  v8.4.0
+[debug] [2017-11-23T08:12:53.371Z] Time:          Thu Nov 23 2017 13:42:53 GMT+0530 (India Standard Time)
+[debug] [2017-11-23T08:12:53.371Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-23T08:12:53.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-23T08:12:53.382Z] > authorizing via signed-in user
+[debug] [2017-11-23T08:12:53.383Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-23T08:12:53.384Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/aR51o3gTlQlf2aNuiGiA2FkbbBG9NMo8dmFSGA31b8A',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Nov 23 2017 13:42:53 GMT+0530 (India Standard Time)
+[debug] [2017-11-23T08:12:53.562Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T08:12:53.608Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chatapp-deb96  
+ Thu Nov 23 2017 13:42:53 GMT+0530 (India Standard Time)
+[debug] [2017-11-23T08:12:54.629Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T08:12:54.630Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chatapp-deb96/tokens  
+ Thu Nov 23 2017 13:42:54 GMT+0530 (India Standard Time)
+[debug] [2017-11-23T08:12:55.556Z] <<< HTTP RESPONSE 200
