@@ -9,6 +9,8 @@ export class AppComponent {
   
   myEvent(userName:string){
     console.log(userName);
+    console.log('Vinoth first github change');
   }
+  
   
 }
